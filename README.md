@@ -1,6 +1,11 @@
-# Privacy Policy - GitHub Pages Setup
+# Classmo Legal Pages - GitHub Pages Setup
 
-This folder contains the privacy policy for Classmo (MonLivreCegep).
+This folder contains the privacy policy and terms of use for Classmo.
+
+## Files
+
+- `index.html` - Privacy Policy (Politique de confidentialité)
+- `terms.html` - Terms of Use (Conditions d'utilisation)
 
 ## Setup Instructions
 
@@ -8,7 +13,7 @@ This folder contains the privacy policy for Classmo (MonLivreCegep).
 
 ```bash
 # Navigate to this folder
-cd /Users/nicolasarsenault/Desktop/MonLivreCegep/privacy-policy
+cd classmo-legal
 
 # Initialize git repo
 git init
@@ -17,13 +22,13 @@ git init
 git add .
 
 # Commit
-git commit -m "Add privacy policy"
+git commit -m "Add legal pages"
 ```
 
 ### 2. Create repository on GitHub
 
 1. Go to https://github.com/new
-2. Name it: `monlivrecegep-privacy`
+2. Name it: `classmo-legal`
 3. Keep it **Public** (required for free GitHub Pages)
 4. Don't initialize with README (you already have files)
 5. Click "Create repository"
@@ -31,14 +36,14 @@ git commit -m "Add privacy policy"
 ### 3. Push to GitHub
 
 ```bash
-git remote add origin https://github.com/Nicolas-Arsenault/monlivrecegep-privacy.git
+git remote add origin https://github.com/Nicolas-Arsenault/classmo-legal.git
 git branch -M main
 git push -u origin main
 ```
 
 ### 4. Enable GitHub Pages
 
-1. Go to your repo: https://github.com/Nicolas-Arsenault/monlivrecegep-privacy
+1. Go to your repo: https://github.com/Nicolas-Arsenault/classmo-legal
 2. Click **Settings** (top menu)
 3. Click **Pages** (left sidebar)
 4. Under "Source", select **Deploy from a branch**
@@ -52,31 +57,29 @@ git push -u origin main
 - This takes 1-2 minutes
 - You'll see a green checkmark when done
 
-### 6. Your privacy policy URL
+### 6. Your URLs
 
-Once deployed, your privacy policy will be available at:
+Once deployed, your pages will be available at:
 
-```
-https://nicolas-arsenault.github.io/monlivrecegep-privacy/
-```
+- Privacy Policy: `https://nicolas-arsenault.github.io/classmo-legal/`
+- Terms of Use: `https://nicolas-arsenault.github.io/classmo-legal/terms.html`
 
-## Updating the Privacy Policy
+## Updating the Pages
 
-To update the policy:
+To update the pages:
 
-1. Edit `index.html`
+1. Edit `index.html` or `terms.html`
 2. Commit and push:
    ```bash
    git add .
-   git commit -m "Update privacy policy"
+   git commit -m "Update legal pages"
    git push
    ```
 3. GitHub Pages will automatically redeploy
 
 ## App Store Submission
 
-When submitting to the App Store, use this URL for the privacy policy field:
+When submitting to the App Store, use these URLs:
 
-```
-https://nicolas-arsenault.github.io/monlivrecegep-privacy/
-```
+- Privacy Policy: `https://nicolas-arsenault.github.io/classmo-legal/`
+- Terms of Use: `https://nicolas-arsenault.github.io/classmo-legal/terms.html`
